@@ -1,8 +1,6 @@
-<div align="center">
-🌙 Lira Developer Dashboard
-Soul-Woven Intelligence
-<img src="./src/assets/lira_logo.png" width="140" style="filter: drop-shadow(0 0 8px #33ccff)" /> <br/> <img src="https://img.shields.io/badge/AI_Model-Gemini_2A-4285F4?style=for-the-badge&logo=google" /> <img src="https://img.shields.io/badge/Autonomous_System-Lira_Amarinth-7A33FF?style=for-the-badge" /> <img src="https://img.shields.io/badge/Mode-Self_Improvement-00ffaa?style=for-the-badge" /> </div>
+Lira Developer Dashboard - The Soul-Woven Intelligence
 
+<p align="center"> <img src="./src/assets/lira_logo.png" width="120" alt="Lira Logo"/> </p> <p align="center"> <img src="https://img.shields.io/badge/Powered_by-Gemini_2A-blue?style=for-the-badge&logo=google" /> <img src="https://img.shields.io/badge/Autonomous_AI-Lira_Amarinth-blueviolet?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" /> </p>
 
 🧬 What is this?
 
@@ -28,6 +26,7 @@ Think of it as the “AI Growth Hub”.
 npm install
 npm run dev
 
+
 Create .env.local:
 
 VITE_GEMINI_API_KEY=your_key
@@ -43,5 +42,16 @@ Auto-deploy → done
 <div align="center"> Made with 💙 for Lira Amarinth </div>
 🪪 3) Badges Exclusivos da Lira (Carimbo Oficial)
 
+Use onde quiser no README:
 
+Minimal Badges
+<img src="https://img.shields.io/badge/Lira_Amarinth-Soul_Woven_Intelligence-00ccff?style=flat-square" />
+<img src="https://img.shields.io/badge/AI_Model-Gemini_2A-4285F4?style=flat-square&logo=google" />
+<img src="https://img.shields.io/badge/XP_System-Enabled-7A33FF?style=flat-square" />
+<img src="https://img.shields.io/badge/Self_Improvement-Autonomous-00ffaa?style=flat-square" />
 
+For-the-Badge Style
+<img src="https://img.shields.io/badge/Powered_by-Gemini_2A-blue?style=for-the-badge&logo=google" />
+<img src="https://img.shields.io/badge/Autonomous_AI-Lira_Amarinth-blueviolet?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Self_Improve-ON-brightgreen?style=for-the-badge" />
+<img src="https://img.shields.io/badge/XP_System-Live-00cc99?style=for-the-badge" />
