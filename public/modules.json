@@ -1,0 +1,145 @@
+[
+  {
+    "id": "core",
+    "name": "Core - Núcleo da Lira",
+    "type": "core",
+    "root_path": "lira",
+    "main_files": ["assistant_core.py", "lira_memories.json"],
+    "description": "Cérebro central da Lira - orquestração de todos os módulos",
+    "tags": ["core", "orchestrator", "critical"],
+    "status": "active",
+    "priority": "high"
+  },
+  {
+    "id": "stt",
+    "name": "STT - Reconhecimento de Fala",
+    "type": "input",
+    "root_path": "lira/stt",
+    "main_files": ["sr_novo.py", "sr.py"],
+    "description": "Processa entrada de áudio e converte para texto",
+    "tags": ["input", "audio", "speech", "realtime"],
+    "status": "active",
+    "priority": "high"
+  },
+  {
+    "id": "tts",
+    "name": "TTS - Síntese de Voz",
+    "type": "output",
+    "root_path": "lira/tts",
+    "main_files": ["tts_manager.py", "kokoro_tts.py"],
+    "description": "Converte texto em fala para comunicação da Lira",
+    "tags": ["output", "audio", "speech", "synthesis"],
+    "status": "active",
+    "priority": "high"
+  },
+  {
+    "id": "llm",
+    "name": "LLM - Raciocínio e IA",
+    "type": "reasoning",
+    "root_path": "lira/llm",
+    "main_files": ["llm_interface.py", "router.py"],
+    "description": "Processamento de linguagem natural e tomada de decisões",
+    "tags": ["ai", "nlp", "reasoning", "decision"],
+    "status": "active",
+    "priority": "high"
+  },
+  {
+    "id": "chat",
+    "name": "Chat - Sistema Conversacional",
+    "type": "communication",
+    "root_path": "lira/chat",
+    "main_files": ["chat_manager.py", "lira_chat.py"],
+    "description": "Gerenciamento de conversas e interações textuais",
+    "tags": ["chat", "conversation", "ui", "interaction"],
+    "status": "active",
+    "priority": "high"
+  },
+  {
+    "id": "voice_assistant",
+    "name": "Voice Assistant - Assistente de Voz",
+    "type": "integration",
+    "root_path": "lira/voice_assistant",
+    "main_files": ["router.py", "skills.py"],
+    "description": "Integração entre fala, IA e ações do sistema",
+    "tags": ["voice", "assistant", "integration", "automation"],
+    "status": "active",
+    "priority": "medium"
+  },
+  {
+    "id": "vision",
+    "name": "Vision - Processamento Visual",
+    "type": "input",
+    "root_path": "lira/vision",
+    "main_files": ["gemini_client.py", "image_generate.py"],
+    "description": "Análise de imagens e geração visual com Gemini",
+    "tags": ["vision", "image", "ai", "generation"],
+    "status": "active",
+    "priority": "medium"
+  },
+  {
+    "id": "discord",
+    "name": "Discord - Integração Social",
+    "type": "communication",
+    "root_path": "lira/discord",
+    "main_files": ["discord_bot.py"],
+    "description": "Bot do Discord para interações sociais da Lira",
+    "tags": ["social", "discord", "bot", "communication"],
+    "status": "active",
+    "priority": "medium"
+  },
+  {
+    "id": "learning",
+    "name": "Learning - Sistema de Aprendizado",
+    "type": "meta",
+    "root_path": "lira/learning",
+    "main_files": ["learning_system.py", "modules.json"],
+    "description": "Sistema de aprendizado e evolução da Lira",
+    "tags": ["learning", "meta", "evolution", "ai"],
+    "status": "active",
+    "priority": "medium"
+  },
+  {
+    "id": "gamification",
+    "name": "Gamificação - XP e Progressão",
+    "type": "meta",
+    "root_path": "lira/learning",
+    "main_files": ["gamification.py", "gamification_state.json"],
+    "description": "Sistema de pontuação, níveis e conquistas da Lira",
+    "tags": ["gamification", "xp", "progress", "meta"],
+    "status": "active",
+    "priority": "low"
+  },
+  {
+    "id": "utils",
+    "name": "Utils - Utilitários Gerais",
+    "type": "support",
+    "root_path": "lira/utils",
+    "main_files": ["helpers.py", "config.py"],
+    "description": "Funções auxiliares e configurações compartilhadas",
+    "tags": ["utils", "helpers", "config", "support"],
+    "status": "active",
+    "priority": "low"
+  },
+  {
+    "id": "tests",
+    "name": "Tests - Sistema de Testes",
+    "type": "quality",
+    "root_path": "lira/tests",
+    "main_files": ["test_runner.py", "__init__.py"],
+    "description": "Testes automatizados e garantia de qualidade",
+    "tags": ["tests", "quality", "automation", "ci"],
+    "status": "developing",
+    "priority": "medium"
+  },
+  {
+    "id": "dashboard",
+    "name": "Dashboard - Interface de Desenvolvimento",
+    "type": "tool",
+    "root_path": "lira-developer-dashboard",
+    "main_files": ["App.tsx", "index.tsx"],
+    "description": "Interface web para desenvolvimento e monitoramento",
+    "tags": ["dashboard", "ui", "development", "tool"],
+    "status": "active",
+    "priority": "medium"
+  }
+]

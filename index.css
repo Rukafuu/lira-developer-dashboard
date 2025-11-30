@@ -1,0 +1,79 @@
+/* Global styles for Lira Developer Dashboard */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --lira-bg: #0f172a;
+  --lira-surface: #1e293b;
+  --lira-accent: #38bdf8;
+  --lira-success: #22c55e;
+  --lira-warning: #eab308;
+  --lira-danger: #ef4444;
+  --lira-text: #f8fafc;
+  --lira-muted: #94a3b8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--lira-bg);
+  color: var(--lira-text);
+  overflow-y: auto;
+}
+
+#root {
+  width: 100vw;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--lira-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--lira-surface);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--lira-muted);
+}
+
+/* Code editor styles */
+pre {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Terminal styles */
+.terminal-text {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+}
+
+/* Animation for processing state */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
