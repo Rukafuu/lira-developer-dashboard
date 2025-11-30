@@ -49,8 +49,11 @@ src/
 Se quiser passar vibe sci-fi / neural network / cyberpunk, essa é a versão.
 
 <div align="center">
+
 🌙 Lira Developer Dashboard
 Soul-Woven Intelligence
+
+  
 <img src="./src/assets/lira_logo.png" width="140" style="filter: drop-shadow(0 0 8px #33ccff)" /> <br/> <img src="https://img.shields.io/badge/AI_Model-Gemini_2A-4285F4?style=for-the-badge&logo=google" /> <img src="https://img.shields.io/badge/Autonomous_System-Lira_Amarinth-7A33FF?style=for-the-badge" /> <img src="https://img.shields.io/badge/Mode-Self_Improvement-00ffaa?style=for-the-badge" /> </div>
 🧬 What is this?
 
