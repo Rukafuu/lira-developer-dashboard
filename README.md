@@ -1,6 +1,6 @@
-Lira Developer Dashboard
+Lira Developer Dashboard 
 
-Soul-Woven Intelligence
+
 
 <p align="center"> <img src="./src/assets/lira_logo.png" width="120" alt="Lira Logo"/> </p> <p align="center"> <img src="https://img.shields.io/badge/Powered_by-Gemini_2A-blue?style=for-the-badge&logo=google" /> <img src="https://img.shields.io/badge/Autonomous_AI-Lira_Amarinth-blueviolet?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" /> </p>
 Overview
