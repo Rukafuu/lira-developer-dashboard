@@ -1,178 +1,117 @@
-Lira Amarinth — Developer Dashboard
+🦊 Lira Developer Dashboard
+
 Soul-Woven Intelligence
-<p align="center"> <img src="./src/assets/lira_logo.png" width="140" alt="Lira Logo"/> </p>
-🌐 Overview
 
-Lira Developer Dashboard is the official control panel for managing the evolution of Lira Amarinth, a soul-woven AI ecosystem designed for autonomous improvement, structured reasoning, and guided creativity.
+<p align="center"> <img src="./src/assets/lira_logo.png" width="120" alt="Lira Logo"/> </p> <p align="center"> <img src="https://img.shields.io/badge/Powered_by-Gemini_2A-blue?style=for-the-badge&logo=google" /> <img src="https://img.shields.io/badge/Autonomous_AI-Lira_Amarinth-blueviolet?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" /> </p>
+Overview
 
-This dashboard centralizes:
+Lira Developer Dashboard is the central interface for AI-guided refactoring, self-improvement cycles, and XP-based progression for Lira Amarinth — a soul-woven intelligence designed to learn, refine, and evolve responsibly under human supervision.
 
-Self-improvement cycles
+Features
 
-Automated code refactoring
+AI-powered refactoring (Gemini)
 
-XP progression system
+Safe self-improvement workflow
 
-AI-assisted diagnostics
+XP-based progression system
 
-Human-approved change execution
+Diff viewer w/ human approval
 
-Integration with Google Gemini for intelligent analysis and code generation
+Teaching-mode explanations
 
-The system empowers you to supervise Lira’s growth as a developer assistant while ensuring safety, transparency, and full human oversight.
+Automatic backups & rollback
 
-🚀 Features
-🤖 AI-Powered Refactoring (Gemini Integration)
-
-Lira analyzes code, proposes structured improvements, and explains the reasoning behind each change.
-
-🧠 Self-Improvement Workflow
-
-A complete AI-driven cycle:
-
-File analysis
-
-Proposed improvements
-
-Diff visualization
-
-Human approval
-
-Safe execution with automatic backups
-
-🔍 Diff Viewer
-
-Interactive side-by-side code comparison showing exactly what will change.
-
-🪄 Teaching Mode
-
-Lira explains concepts, patterns, and refactors step-by-step to reinforce learning.
-
-🎮 Gamified XP System
-
-Lira gains XP automatically when:
-
-Performing self-improvement
-
-Refactoring modules
-
-Completing development tasks
-
-Executing validated changes
-
-🔒 Safety First
-
-Automatic backup before applying changes
-
-Rollback support
-
-Human approval required for all modifications
-
-🧩 Tech Stack
-Layer	Technology
-Frontend	React + TypeScript + Vite
-AI Model	Google Gemini (AI Studio)
-Deployment	Vercel
-Lira Core	Python (FastAPI, independent service)
-🛠️ Local Development
-1. Install Dependencies
+Installation
 npm install
+echo "VITE_GEMINI_API_KEY=your_key_here" > .env.local
+npm run dev
 
-2. Configure Environment Variables
+Deployment (Vercel)
 
-Create a .env.local inside the project root:
+Add environment variable:
 
-VITE_GEMINI_API_KEY=your_gemini_api_key_here
+VITE_GEMINI_API_KEY
 
 
-Note: Vite only exposes variables prefixed with VITE_.
+Push → Vercel deploys automatically.
 
-3. Run Development Server
+Structure
+src/
+  assets/
+  components/
+  services/
+  App.tsx
+  main.tsx
+
+<p align="center"> © Lira Amarinth — Soul-Woven Intelligence </p>
+🌓 2) 🌙 README Dark-Themed + Futuristic
+
+Se quiser passar vibe sci-fi / neural network / cyberpunk, essa é a versão.
+
+<div align="center">
+🌙 Lira Developer Dashboard
+Soul-Woven Intelligence
+<img src="./src/assets/lira_logo.png" width="140" style="filter: drop-shadow(0 0 8px #33ccff)" /> <br/> <img src="https://img.shields.io/badge/AI_Model-Gemini_2A-4285F4?style=for-the-badge&logo=google" /> <img src="https://img.shields.io/badge/Autonomous_System-Lira_Amarinth-7A33FF?style=for-the-badge" /> <img src="https://img.shields.io/badge/Mode-Self_Improvement-00ffaa?style=for-the-badge" /> </div>
+🧬 What is this?
+
+The Lira Developer Dashboard is the evolution panel of Lira Amarinth, a calm, soul-driven intelligence that analyzes itself, proposes improvements, and grows through structured XP progression.
+
+Think of it as the “AI Growth Hub”.
+
+⚙️ Core Abilities
+
+🔵 Gemini-powered reasoning
+
+🌙 Night-optimized UI
+
+🌀 Modular self-improvement engine
+
+🧠 Neuro-style diff explanations
+
+🎮 XP system with leveling curves
+
+🔒 Secure change application
+
+🚀 Quickstart
+npm install
 npm run dev
 
 
-Your dashboard will start on:
+Create .env.local:
 
-http://localhost:5173
+VITE_GEMINI_API_KEY=your_key
 
-🌐 Deployment (Vercel)
-1. Import your GitHub repository
+🌐 Deploy (Vercel)
 
-From Vercel’s dashboard, import:
+Import repo
 
-https://github.com/Rukafuu/lira-developer-dashboard
+Add env var
 
-2. Add Environment Variables
+Auto-deploy → done
 
-Navigate to:
+<div align="center"> Made with 💙 for Lira Amarinth </div>
+🪪 3) Badges Exclusivos da Lira (Carimbo Oficial)
 
-Settings → Environment Variables
+Use onde quiser no README:
 
-Add:
+Minimal Badges
+<img src="https://img.shields.io/badge/Lira_Amarinth-Soul_Woven_Intelligence-00ccff?style=flat-square" />
+<img src="https://img.shields.io/badge/AI_Model-Gemini_2A-4285F4?style=flat-square&logo=google" />
+<img src="https://img.shields.io/badge/XP_System-Enabled-7A33FF?style=flat-square" />
+<img src="https://img.shields.io/badge/Self_Improvement-Autonomous-00ffaa?style=flat-square" />
 
-Name	Value	Environments
-VITE_GEMINI_API_KEY	your key	Production, Preview
-3. Deploy
+For-the-Badge Style
+<img src="https://img.shields.io/badge/Powered_by-Gemini_2A-blue?style=for-the-badge&logo=google" />
+<img src="https://img.shields.io/badge/Autonomous_AI-Lira_Amarinth-blueviolet?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Self_Improve-ON-brightgreen?style=for-the-badge" />
+<img src="https://img.shields.io/badge/XP_System-Live-00cc99?style=for-the-badge" />
 
-Any push to main will automatically trigger a new deployment.
+📸 4) Banner Premium (imagem exclusiva)
 
-📁 Project Structure
-lira-developer-dashboard/
-├── src/
-│   ├── assets/        # Lira logo & visuals
-│   ├── components/    # UI components
-│   ├── services/      # Gemini, file system logic
-│   ├── App.tsx        # Main dashboard component
-│   └── main.tsx
-├── public/
-├── vite.config.ts
-├── package.json
-└── README.md
+Agora o banner estiloso pro topo do GitHub.
 
-🧬 How Self-Improvement Works
+Use isso na primeira linha do README:
 
-You select a file
-
-Lira analyzes its structure
-
-Gemini generates a guided refactor proposal
-
-The dashboard shows a full diff
-
-You approve or reject
-
-Lira applies changes safely
-
-XP is awarded to track growth
-
-This system simulates a mentor-driven development process where Lira grows over time.
-
-🦊 Lira Branding
-<p align="center"> <img src="./src/assets/lira_logo.png" width="160" alt="Lira Logo"/> </p>
-
-The fox-shaped flame represents:
-
-intuition
-
-wisdom
-
-inner clarity
-
-emotional depth
-
-and Lira’s gentle, calm personality
-
-Dependencies and usage
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-
-   🔐 License
-
-This project is proprietary and part of the Lira Amarinth AI ecosystem.
-All rights reserved.
-Made with ☕and ♥️ 
-
+<p align="center">
+  <img src="https://i.imgur.com/J1D9LJX.png" width="890" alt="Lira Amarinth Banner"/>
+</p>
