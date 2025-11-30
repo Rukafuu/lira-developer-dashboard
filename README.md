@@ -1,4 +1,4 @@
-🦊 Lira Developer Dashboard
+Lira Developer Dashboard
 
 Soul-Woven Intelligence
 
@@ -49,11 +49,8 @@ src/
 Se quiser passar vibe sci-fi / neural network / cyberpunk, essa é a versão.
 
 <div align="center">
-
 🌙 Lira Developer Dashboard
 Soul-Woven Intelligence
-
-  
 <img src="./src/assets/lira_logo.png" width="140" style="filter: drop-shadow(0 0 8px #33ccff)" /> <br/> <img src="https://img.shields.io/badge/AI_Model-Gemini_2A-4285F4?style=for-the-badge&logo=google" /> <img src="https://img.shields.io/badge/Autonomous_System-Lira_Amarinth-7A33FF?style=for-the-badge" /> <img src="https://img.shields.io/badge/Mode-Self_Improvement-00ffaa?style=for-the-badge" /> </div>
 🧬 What is this?
 
@@ -108,13 +105,3 @@ For-the-Badge Style
 <img src="https://img.shields.io/badge/Autonomous_AI-Lira_Amarinth-blueviolet?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Self_Improve-ON-brightgreen?style=for-the-badge" />
 <img src="https://img.shields.io/badge/XP_System-Live-00cc99?style=for-the-badge" />
-
-📸 4) Banner Premium (imagem exclusiva)
-
-Agora o banner estiloso pro topo do GitHub.
-
-Use isso na primeira linha do README:
-
-<p align="center">
-  <img src="https://i.imgur.com/J1D9LJX.png" width="890" alt="Lira Amarinth Banner"/>
-</p>
